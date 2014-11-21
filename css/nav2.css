@@ -1,0 +1,26 @@
+.nav2 {
+    width: 10rem;
+    padding: 1rem;
+
+    list-style-type: none;
+}
+
+.nav2 a {
+    display: block;
+    text-decoration: none;
+    color: green;
+
+    padding: 1rem;
+    background-color: pink;
+    text-align: center;
+}
+
+.nav2 a:hover {
+    text-decoration: underline;
+    background-color: lightgreen;
+}
+
+.nav2 a.current_page {
+    color: yellow;
+    background-color: black;
+}
