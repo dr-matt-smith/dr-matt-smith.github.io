@@ -1,91 +1,237 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title> cast </title>
+	<title>
+		Matt Smith
+	</title>
 	<style>
-        @import 'css/cast.css';
-        @import 'css/nav2.css';
+		header {
+			text-align: center;
+		}
+
+		aside {
+			float: right;
+			width: 30%;
+			padding: 1rem;
+			border: black solid 1rem;
+		}
 	</style>
 </head>
-<body class="cast_page">
 
-<h1>cast</h1>
+<body>
+<header>
+	<img src="graphics/page_head_01.png">
+</header>
 
-<!-- ******** row 1 of cast ****** -->
-<div class="column_container">
+<h1>
+	Welcome to the Matt Smith's website 
+</h1>
 
-    <!-- ***** fixed with column with vertical nav bar ****** -->
-    <!-- ****
-        do NOT use 'nav' here, since nav should only be for MAIN navigation links (home/sitemap/cast-list/episode list etc.)
-    -->
+<aside>
+	<!-------- DOWNLOADS  --->
+	<h2>
+		Downloads
+	</h2>
+	Download a presentation and 2 java systems:
+	<ul>
+		<li>
+			my ED-TECH 2002 presentation
+			<a href="presentation/smith_ed_tech_2002.html">
+				.html
+			</a>
 
-    <!-- ****** 'ul' is a block, so no need to put it inside a DIV or SECTION or ASIDE - it's like double bagging in Lidl - unnecessary here -->
-    <ul class="nav2">
-        <li><a href="#" class="current_page">cast page 1</a></li>
-        <li><a href="#">cast page 2</a></li>
-        <li><a href="#">cast page 2</a></li>
-        <li><a href="#">cast page 2</a></li>
-    </ul>
+			<a href="presentation/smith_ed_tech_2002.ppt">
+				.ppt
+			</a>
 
-    <!-- ****** this section enclosed the 2 rows of cast - i.e. the 2 DIVS ***** -->
-    <section>
+		</li>
 
-        <!-- ******** row 1 of cast ****** -->
-        <div class="column_container">
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
+		<li>
+			<a href="download/pc01.zip">
+				Pitch Circles music tool
+			</a>
+			<br />
+			(run with ">java PS31")
+		</li>
 
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
+		<li>
+			<a href="download/leg01_ver_1_1.zip">
+				LEG01 Computer graphics tool
+			</a>
+			<br />
+			(run with ">java LEG01")
+		</li>
+	</ul>
 
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
-        </div>
+	<h2>
+		Documentation
 
-        <!-- ******** row 2 of cast ****** -->
-        <div class="column_container">
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
+	</h2>
+	<p>
+		Download some documentation about these systems:
+	</p>
+	<ul>
+		<li>
+			Pitch Circles research paper
+			<a href="pages/pitch_circles_smith_20002_itb_journal.html">
+				.html
+			</a>
 
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
+			<a href="pages/pitch_circles_smith_20002_itb_journal.doc">
+				.doc
+			</a>
+		</li>
 
-            <section>
-                <img src="images/matt.jpg" alt="matt">
-                <br>
-                <h2>Cast Name</h2>
-                <p>Expert of bio</p>
-                <a href="#">learn more...</a>
-            </section>
-        </div>
 
-    </section>
-</div>
+		<li>
+			LEG01 graphics lab exercises
+			<a href="pages/LEG01_lab_sheet.html">
+				.html
+			</a>
+
+			<a href="pages/LEG01_lab_sheet.doc">
+				.doc
+			</a>
+		</li>
+	</ul>
+</aside>
+
+<!-------- ABOUT MATT / CONTACT  --->
+
+<br />
+
+<p>
+<img src="graphics/matt.jpg" height=100 width=80>
+</p>
+
+<h4>
+	About Matt Smith
+</h4>
+<p>
+I'm the senior lecturer in computing at
+	<a href="http://www.itb.ie">
+		<b class="link2">Institute of Technology Blanchardstown</b>, Dublin 15
+	</a>
+
+<br />
+You can contact me by email at
+	<strong>
+		matt.smith-AT-itb.ie
+
+	</strong>
+or by phone on (01) 885 1098
+</p>
+
+
+<h4>
+	Matt's research interests
+</h4>
+
+<p>
+My resarch interests are the use of AI to support collaborative
+learning, and also the development of direct manipulation interfaces to
+support the learning of creative domains (such as music composition) by novices.
+</p>
+
+<p>
+You can learn a bit about my research by looking at the slides I presented at the ED-TECH 2002 conference.
+(see presentation download in the right hand column...)
+</p>
+
+<h4>
+	Matt's technical interests
+</h4>
+
+<p>
+Curently I'm working on the integration of the following for some cool 3D interactive 'serious' games:
+</p>
+
+<ul>
+	<li>
+	3D computer games created using 
+	<br/>
+	<a href="http://unity3d.com/">
+	<b class="link2">
+		Unity
+	</b>
+	</a>
+	</li>
+	
+	<li>
+	human motion capture and use for computer animated models, created using 
+	<br/>
+	<a href="http://unity3d.com/">
+	<b class="link2">
+		Unity
+	</b>
+	</a>
+
+	<br/>
+	<a href="http://en.wikipedia.org/wiki/Kinect">
+	<b class="link2">
+		Microsoft Kinect
+	</b>
+	</a>
+
+	<br/>
+	<a href="http://www.ipisoft.com/">
+	<b class="link2">
+		ipisoft
+	</b>
+	</a>
+
+	<br/>
+	<a href="http://zigfu.com/">
+	<b class="link2">
+		Zigfu
+	</b>
+	</a>
+
+	<br/>
+	<a href="http://www.blender.org/">
+	<b class="link2">
+		Blender
+	</b>
+	</a>
+	</li>
+	
+	<li>
+	large scale, robust PHP-database driven websites based around
+	the Symfony 2 framework
+	</li>
+	
+
+	<li>
+	richly interactive websites, using PHP, JQuery, Goole Maps and AJAX
+	<br/>
+	see the a <a href="http://www.mattsmithdev.com/estimator%20229/estimator.php">
+	<b class="link2">
+	house valuation prototype website I developed for The Good Agent	
+	</b>
+	</a>
+	</li>
+	
+</ul>
+
+
+
+<h4>
+	Matt's personal interests
+</h4>
+
+<p>
+In May 2011 I took up Taekwon-Do (I'm hoping to get my black belt in 2015 ...). I run the  website for the
+<a href="http://maynoothtkd.com/">
+<b class="link2">Maynooth Taekwon-Do School</b>
+</a>
+</p>
+
+<p>
+&nbsp;
+</p>
+
+
+
 
 </body>
 </html>
